@@ -204,7 +204,7 @@ $(document).ready(function() {
         type: 'GET',
         dataType: 'json',
         data: {},
-        url: 'https://api.openweathermap.org/data/2.5/weather?q=hanoi&appid=8abd04009b0b784352dd637c0ecb8668&units=metric',
+        url: 'https://api.openweathermap.org/data/2.5/weather?q=Ho+Chi+Minh&appid=8abd04009b0b784352dd637c0ecb8668&units=metric',
         success: function(data)
         {
             weather.date = moment.unix(data.dt).format('MM/DD/YYYY');
